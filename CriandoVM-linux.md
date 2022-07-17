@@ -1,6 +1,6 @@
-##########################################################
-parte-01
-##########################################################
+
+#parte-01
+
 
 # Criando a maquina Linux VBox no Windows: 
 1 - depois de criada verificar a placa de REDE;
