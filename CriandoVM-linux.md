@@ -25,7 +25,7 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 
 ## Preparando o usuário para administrar:
 1. - logar com o usuário comum (aluno);
-2. - com o "SU -" abra o terminal de root;
+2. - com o **'''SU -'''** abra o terminal de root;
 
 3. - instalar o pacote SUDO e o SSH:
 - [x]  apt install sudo
