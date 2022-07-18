@@ -67,24 +67,24 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 - [x] - use o HRML abaixo:
 
 '''
-<html>
-  <head>
-    <title>Bem vindo ao portal ded revistas!</title>
-  </head>
-  <body>
-    <h1>Portal de revista esta online!</h1>
-  </body>
-</html>
-5.4 - nano /var/www/monografias/public_html/index.html
-5.5 - use o HRML abaixo:
-<html>
-  <head>
-    <title>Bem vindo ao portal ded monografias!</title>
-  </head>
-  <body>
-    <h1>Portal de monografias esta online!</h1>
-  </body>
-</html>
+      <html>
+        <head>
+          <title>Bem vindo ao portal ded revistas!</title>
+        </head>
+        <body>
+          <h1>Portal de revista esta online!</h1>
+        </body>
+      </html>
+      5.4 - nano /var/www/monografias/public_html/index.html
+      5.5 - use o HRML abaixo:
+      <html>
+        <head>
+          <title>Bem vindo ao portal ded monografias!</title>
+        </head>
+        <body>
+          <h1>Portal de monografias esta online!</h1>
+        </body>
+      </html>
 '''
 
 6 - Criar arquivos do host virtual:
