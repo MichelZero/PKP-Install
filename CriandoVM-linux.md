@@ -8,8 +8,8 @@
 
 ## Como administrador no Power Shell;
 3. - ativar VT-x: exemplo https://youtu.be/iBNytZ3GZWM
-- [x] - vá em: cd 'C:\Arquivos de Programas\Oracle\VirtualBox\'
-- [x] - execute: ./vboxManage.exe modifyvm "nome-maquina" --nested-hw-virt on
+- [x]  vá em: cd 'C:\Arquivos de Programas\Oracle\VirtualBox\'
+- [x]  execute: ./vboxManage.exe modifyvm "nome-maquina" --nested-hw-virt on
 
 ## Instalando o Debian:
 1. - escolha a ISO de instalação (baixada do site);
@@ -28,25 +28,25 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 2. - com o "SU -" abra o terminal de root;
 
 3. - instalar o pacote SUDO e o SSH:
-- [x] - apt install sudo
-- [x] - apt install ssh
+- [x]  apt install sudo
+- [x]  apt install ssh
 
 4. - adicione o seu usuário ao grupo SUDO;
 - [x] - faça o logoff do root e use o "SU -" novamente;
-- [x] - adduser aluno sudo
+- [x]  adduser aluno sudo
 - [x] - faça o logoff do root;
-- [x] - peque o IP com "ip a" anote; aqui ficou 192.168.0.16
+- [x] - peque o IP com **ip a** anote; aqui ficou 192.168.0.16
 - [x] - faça logoff do usário aluno e dai para frente só use o usário Aluno via SSH;
 
 5. - no terminal do power shell do windows, faça login com SSH;
-- [x] - ssh aluno@192.168.0.16
+- [x]  ssh aluno@192.168.0.16
 - [x] - aceite a chave de criptografia com yes;
 
 
 ## Criando os sites no servidor:
 1. - se não tiver instalado os pacotes de serviço web;
 - [x] - Instalando o Apache 2;
-- [x] - sudo apt install apache2 apache2-utils libexpat1 ssl-cert
+- [x]  **sudo apt install apache2 apache2-utils libexpat1 ssl-cert**
 
 2. - abra um navegador e acesse o IP, deve abrir a pagina "Apache2 It works!";
 
