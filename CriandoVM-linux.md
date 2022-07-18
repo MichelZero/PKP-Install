@@ -29,13 +29,15 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 
 3. - instalar o pacote SUDO e o SSH:
 
-  
-    apt install sudo
-    apt install ssh
+        apt install sudo
+        apt install ssh
+      
 
 4. - adicione o seu usuário ao grupo SUDO;
 - [x] - faça o logoff do root e use o **"su -"** novamente;
-   **adduser aluno sudo**
+
+
+         **adduser aluno sudo**
 - [x] - faça o logoff do root;
 - [x] - peque o IP com **ip a** anote; aqui ficou 192.168.0.16
 - [x] - faça logoff do usário aluno e dai para frente só use o usário Aluno via SSH;
