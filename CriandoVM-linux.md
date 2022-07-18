@@ -16,4 +16,5 @@
 2. - faça a instalação minima do servidor;
 - [x] - escolha apenas: utilitário de sistema padrão
 
-VM para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
+VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
+- atualizada em 16/07/2022
