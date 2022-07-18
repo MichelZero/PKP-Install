@@ -88,8 +88,8 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
       </html>
 
 6 - Criar arquivos do host virtual:
-OSB: O Apache vem com um arquivo de host virtual padrão chamado 000-default.conf
-podemos copiar ou criar do zero os nossos, vamos copiar.
+- OSB: O Apache vem com um arquivo de host virtual padrão chamado 000-default.conf
+- podemos copiar ou criar do zero os nossos, vamos copiar.
    **sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/revistas.com.conf**
 - [x] - edite o arquivo revistas.com.conf;
   **sudo nano /etc/apache2/sites-available/revistas.com.conf**
