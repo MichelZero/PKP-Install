@@ -14,6 +14,6 @@
 ## Instalando o Debian:
 1. - escolha a ISO de instalação (baixada do site);
 2. - faça a instalação minima do servidor;
--  - escolha apenas: utilitário de sistema padrão
+- [x] - escolha apenas: utilitário de sistema padrão
 
 VM para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
