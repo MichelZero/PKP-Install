@@ -28,8 +28,10 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 2. - com o **"su -"** abra o terminal de root;
 
 3. - instalar o pacote SUDO e o SSH:
-   **apt install sudo**
-   **apt install ssh**
+
+  
+    apt install sudo
+    apt install ssh
 
 4. - adicione o seu usuário ao grupo SUDO;
 - [x] - faça o logoff do root e use o **"su -"** novamente;
@@ -95,6 +97,8 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
   **sudo nano /etc/apache2/sites-available/revistas.com.conf**
   
 - [x] copie o exemplo abaixo:
+
+
       <VirtualHost *:80>
           ServerAdmin seu.email@email.com
           ServerName revistas.com
@@ -108,6 +112,8 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
   **sudo nano /etc/apache2/sites-available/monografias.com.conf**
   
 - [x] - copie o exemplo abaixo:
+
+
       <VirtualHost *:80>
           ServerAdmin seu.email@email.com
           ServerName monografias.com
