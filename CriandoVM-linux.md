@@ -2,7 +2,8 @@
 # Parte-01
 
 
-## Criando a maquina Linux VBox no Windows: 
+## Criando a maquina Linux VBox no Windows:
+https://www.virtualbox.org/
 1. - depois de criada verificar a placa de REDE;
 2. - memória, processador, vídeo;
 
