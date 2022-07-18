@@ -78,34 +78,35 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
          
 - [x] - use o HTML abaixo:
 
-      <html>
-        <head>
-          <title>Bem vindo ao portal ded revistas!</title>
-        </head>
-        <body>
-          <h1>Portal de revista esta online!</h1>
-        </body>
-      </html>
+               <html>
+                 <head>
+                   <title>Bem vindo ao portal ded revistas!</title>
+                 </head>
+                 <body>
+                   <h1>Portal de revista esta online!</h1>
+                 </body>
+               </html>
       
   
          nano /var/www/monografias/public_html/index.html
    
 - [x] - use o HRML abaixo:
 
-      <html>
-        <head>
-          <title>Bem vindo ao portal ded monografias!</title>
-        </head>
-        <body>
-          <h1>Portal de monografias esta online!</h1>
-        </body>
-      </html>
+               <html>
+                 <head>
+                   <title>Bem vindo ao portal ded monografias!</title>
+                 </head>
+                 <body>
+                   <h1>Portal de monografias esta online!</h1>
+                 </body>
+               </html>
 
 6 - Criar arquivos do host virtual:
 - OSB: O Apache vem com um arquivo de host virtual padrão chamado 000-default.conf
 - podemos copiar ou criar do zero os nossos, vamos copiar.
  
          sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/revistas.com.conf
+         
 - [x] - edite o arquivo revistas.com.conf;
          
          sudo nano /etc/apache2/sites-available/revistas.com.conf
@@ -121,6 +122,7 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
           ErrorLog ${APACHE_LOG_DIR}/error.log
           CustomLog ${APACHE_LOG_DIR}/access.log combined
          </VirtualHost>
+         
 
          sudo cp /etc/apache2/sites-available/revistas.conf /etc/apache2/sites-available/monografias.com.conf
          sudo nano /etc/apache2/sites-available/monografias.com.conf
