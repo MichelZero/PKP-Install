@@ -4,7 +4,7 @@
 
 ## Criando a maquina Linux VBox no Windows:
 https://www.virtualbox.org/
-1. - depois de criada verificar a placa de REDE;
+1. - depois de criada verificar a placa de REDE, use a Placa em modo Bridge
 2. - memória, processador, vídeo;
 
 ## Como administrador no Power Shell;
@@ -91,7 +91,7 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
   
          nano /var/www/monografias/public_html/index.html
    
-- [x] - use o HRML abaixo:
+- [x] - use o HTML abaixo:
 
                <html>
                  <head>
