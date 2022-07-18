@@ -65,7 +65,8 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 - [x] - criando arquivo index.html em cada site;
 - [x] - nano /var/www/revistas/public_html/index.html
 - [x] - use o HRML abaixo:
-...
+
+'''
 <html>
   <head>
     <title>Bem vindo ao portal ded revistas!</title>
@@ -84,7 +85,7 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
     <h1>Portal de monografias esta online!</h1>
   </body>
 </html>
-...
+'''
 
 6 - Criar arquivos do host virtual:
 OSB: O Apache vem com um arquivo de host virtual padrão chamado 000-default.conf
