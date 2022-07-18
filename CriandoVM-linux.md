@@ -43,7 +43,7 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 
 5. - no terminal do power shell do windows, faça login com SSH;
 
-       ssh aluno@192.168.0.16
+        ssh aluno@192.168.0.16
        
 - [x] - aceite a chave de criptografia com yes;
 
@@ -51,7 +51,8 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 ## Criando os sites no servidor:
 1. - se não tiver instalado os pacotes de serviço web;
 - [x] - Instalando o Apache 2;
-   **sudo apt install apache2 apache2-utils libexpat1 ssl-cert**
+     
+      $ sudo apt install apache2 apache2-utils libexpat1 ssl-cert
 
 2. - abra um navegador e acesse o IP, deve abrir a pagina "Apache2 It works!";
 
