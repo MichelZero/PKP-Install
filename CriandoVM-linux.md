@@ -27,7 +27,7 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 1. - logar com o usuário comum (aluno);
 2. - com o **"su -"** abra o terminal de root;
 
-3. - instalar o pacote SUDO e o SSH:
+3. - instalar o pacote SUDO e o SSH;
 
         # apt install sudo
         
