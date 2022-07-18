@@ -25,21 +25,21 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 
 ## Preparando o usuário para administrar:
 1. - logar com o usuário comum (aluno);
-2. - com o **su -** abra o terminal de root;
+2. - com o **"su -"** abra o terminal de root;
 
 3. - instalar o pacote SUDO e o SSH:
 - [x]  apt install sudo
 - [x]  apt install ssh
 
 4. - adicione o seu usuário ao grupo SUDO;
-- [x] - faça o logoff do root e use o "SU -" novamente;
-- [x]  adduser aluno sudo
+- [x] - faça o logoff do root e use o **"su -"** novamente;
+- [x]  **adduser aluno sudo
 - [x] - faça o logoff do root;
 - [x] - peque o IP com **ip a** anote; aqui ficou 192.168.0.16
 - [x] - faça logoff do usário aluno e dai para frente só use o usário Aluno via SSH;
 
 5. - no terminal do power shell do windows, faça login com SSH;
-- [x]  ssh aluno@192.168.0.16
+- [x]  **ssh aluno@192.168.0.16
 - [x] - aceite a chave de criptografia com yes;
 
 
