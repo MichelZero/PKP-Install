@@ -7,7 +7,7 @@
 2. - memória, processador, vídeo;
 
 ## Como administrador no Power Shell;
-3. - ativar VT-x com:
+3. - ativar VT-x: exemplo https://youtu.be/iBNytZ3GZWM
 - [x] - vá em: cd 'C:\Arquivos de Programas\Oracle\VirtualBox\'
 - [x] - execute: ./vboxManage.exe modifyvm "nome-maquina" --nested-hw-virt on
 
