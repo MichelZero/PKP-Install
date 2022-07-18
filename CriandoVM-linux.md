@@ -29,10 +29,8 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 
 3. - instalar o pacote SUDO e o SSH;
 
-        # apt install sudo
-        
-        
-        # apt install ssh
+         # apt install sudo
+         # apt install ssh
 
 4. - adicione o seu usuário ao grupo SUDO;
 - [x] - faça o logoff do root e use o **"su -"** novamente;
