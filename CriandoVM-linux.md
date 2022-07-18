@@ -33,13 +33,13 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 
 4. - adicione o seu usuário ao grupo SUDO;
 - [x] - faça o logoff do root e use o **"su -"** novamente;
-- [x]  **adduser aluno sudo
+- [x]  **adduser aluno sudo**
 - [x] - faça o logoff do root;
 - [x] - peque o IP com **ip a** anote; aqui ficou 192.168.0.16
 - [x] - faça logoff do usário aluno e dai para frente só use o usário Aluno via SSH;
 
 5. - no terminal do power shell do windows, faça login com SSH;
-- [x]  **ssh aluno@192.168.0.16
+- [x]  **ssh aluno@192.168.0.16**
 - [x] - aceite a chave de criptografia com yes;
 
 
@@ -51,19 +51,19 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 2. - abra um navegador e acesse o IP, deve abrir a pagina "Apache2 It works!";
 
 3. - Criar a estrutura de diretório (use -p para não gerar erro):
-- [x] - sudo mkdir -p /var/www/revistas/public_html
-- [x] - sudo mkdir -p /var/www/monografias/public_html
+- [x]  **sudo mkdir -p /var/www/revistas/public_html**
+- [x]  **sudo mkdir -p /var/www/monografias/public_html**
 
 4. - Conceder permissões:
 - [x] - para que nosso usuário atual consiga modificar os arquivos;
-- [x] - sudo chown -R $USER:$USER /var/www/revistas/public_html
-- [x] - sudo chown -R $USER:$USER /var/www/monografias/public_html
+- [x]  **sudo chown -R $USER:$USER /var/www/revistas/public_html**
+- [x]  **sudo chown -R $USER:$USER /var/www/monografias/public_html**
 - [x] - garantir que o acesso de leitura seja concedido ao diretório Web geral;
-- [x] - sudo chmod -R 755 /var/www
+- [x]  **sudo chmod -R 755 /var/www**
 
 5. - Criar páginas de teste para cada host virtual:
 - [x] - criando arquivo index.html em cada site;
-- [x] - nano /var/www/revistas/public_html/index.html
+- [x]  **nano /var/www/revistas/public_html/index.html**
 - [x] - use o HRML abaixo:
 
       <html>
@@ -75,7 +75,7 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
         </body>
       </html>
       
-- [x] - nano /var/www/monografias/public_html/index.html
+- [x]  **nano /var/www/monografias/public_html/index.html**
 - [x] - use o HRML abaixo:
 
       <html>
