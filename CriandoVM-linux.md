@@ -31,6 +31,7 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 
         # apt install sudo
         
+        
         # apt install ssh
 
 4. - adicione o seu usuário ao grupo SUDO;
