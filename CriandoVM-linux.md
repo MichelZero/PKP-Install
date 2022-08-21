@@ -20,6 +20,7 @@ https://www.virtualbox.org/
 VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmCR7a0n_G2KPgA1?e=yQTefV
 - atualizada em 16/07/2022
 
+Vídeo da criação da VM:: https://youtu.be/GohsfmLnNnY
 
 # Parte-02
 
