@@ -198,43 +198,46 @@ instalando o portal de revistas
 
 - 2 - Instalando o PHP7.4 e bibliotecas necessárias:
 
-          sudo apt install libapache2-mod-php7.4 php7.4 php7.4-common php7.4-curl php7.4-dev php7.4-gd php7.4-imagick php7.4-mysql php7.4-ps php7.4-xsl php7.4-mbstring php7.4-xml php7.4-cli php7.4-soap php7.4-zip php7.4-intl php7.4-curl
+        sudo apt install libapache2-mod-php7.4 php7.4 php7.4-common php7.4-curl php7.4-dev php7.4-gd php7.4-imagick php7.4-mysql php7.4-ps php7.4-xsl php7.4-mbstring php7.4-xml php7.4-cli php7.4-soap php7.4-zip php7.4-intl php7.4-curl
 
 - 3 - Instalando o PHPMyAdmin:
 
-          sudo apt install phpmyadmin
+        sudo apt install phpmyadmin
 
   reinicie o servidor:
 
-          sudo init 6
+        sudo init 6
 
   criando o arquivo index.php na pasta /var/www/revistas/public_html :
 
-          sudo touch index.php
+        sudo touch index.php
 
   editar o arquivo:
+
+        sudo nano index.php
+
+  adicione a função PHP:
+
+        <?php phpinfo()?>
+
+  Teste se o PHP no navegador (o IP pode mudar):
+
+        http://192.168.0.17/index.php
+
+- 3 - estando tudo ok, remova o index.html e index.php:
   
-          sudo nano index.php
+         sudo rm *
 
-adicione a função PHP:
-<?php phpinfo()?>
-
-Teste se o PHP no navegador (o IP pode mudar):
-http://192.168.0.17/index.php
-
-3 - estando tudo ok, remova o index.html e index.php:
-            sudo rm *
-
-entre no mariaDB cliente:
-4 - 
-            sudo mysql -u root
-
- a seguir, substituindo o valor do login e senha pelos valores que desejar:
- CREATE USER 'login-aqui'@'localhost' IDENTIFIED BY 'senha-aqui';
-4.1 - 
-            CREATE USER 'aluno'@'localhost' IDENTIFIED BY 'senha';
+- 4 - entre no mariaDB cliente:
  
-Agora vamos conceder as permissões necessárias para este novo usuário. Não se esqueça de utilizar aqui o mesmo login utilizado no comando anterior:
+         sudo mysql -u root
+
+- 4.1 - a seguir, substituindo o valor do login e senha pelos valores que desejar:
+
+         CREATE USER 'login-aqui'@'localhost' IDENTIFIED BY 'senha-aqui';
+         CREATE USER 'aluno'@'localhost' IDENTIFIED BY 'senha';
+ 
+  Agora vamos conceder as permissões necessárias para este novo usuário. Não se esqueça de utilizar aqui o mesmo login utilizado no comando anterior:
 
 
 GRANT ALL PRIVILEGES ON * . * TO 'login-aqui'@'localhost';
