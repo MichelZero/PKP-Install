@@ -190,9 +190,9 @@ instalando o portal de revistas
 
 
 ############################################################
-Instalando o MySQL Server (mariaDB) e Client:
+- [x] - Instalando o MySQL Server (mariaDB) e Client:
 
-logar via ssh com aluno@IP-DO-SERVIDOR
+- logar via ssh com aluno@IP-DO-SERVIDOR
 1 - 
           sudo apt install mariadb-server mariadb-client libmariadb-dev
 
