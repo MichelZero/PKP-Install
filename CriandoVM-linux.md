@@ -183,7 +183,7 @@ VM pronta para baixar: https://1drv.ms/u/s!AjncOwJSKLqhgmHgj3tV7RTB8hHr?e=BAaCgD
 
 instalando o portal de revistas
 
-Após atualizar, faça a atualização do repositório com
+- [x] - Após atualizar, faça a atualização do repositório com
           sudo apt update
           sudo apt upgrade
 
