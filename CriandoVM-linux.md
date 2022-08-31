@@ -194,6 +194,7 @@ instalando o portal de revistas
 
 - logar via ssh com aluno@IP-DO-SERVIDOR
 1 - 
+          
           sudo apt install mariadb-server mariadb-client libmariadb-dev
 
 Instalando o PHP7.4 e bibliotecas necessárias:
