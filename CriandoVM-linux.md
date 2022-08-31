@@ -192,26 +192,28 @@ instalando o portal de revistas
 ############################################################
 - [x] - Instalando o MySQL Server (mariaDB) e Client:
 
-- logar via ssh com aluno@IP-DO-SERVIDOR
-1 - 
+- 1 - logar via ssh com aluno@IP-DO-SERVIDOR
           
           sudo apt install mariadb-server mariadb-client libmariadb-dev
 
-Instalando o PHP7.4 e bibliotecas necessárias:
-2 - 
+- 2 - Instalando o PHP7.4 e bibliotecas necessárias:
+
           sudo apt install libapache2-mod-php7.4 php7.4 php7.4-common php7.4-curl php7.4-dev php7.4-gd php7.4-imagick php7.4-mysql php7.4-ps php7.4-xsl php7.4-mbstring php7.4-xml php7.4-cli php7.4-soap php7.4-zip php7.4-intl php7.4-curl
 
-Instalando o PHPMyAdmin:
-3 - 
+- 3 - Instalando o PHPMyAdmin:
+
           sudo apt install phpmyadmin
 
-reinicie o servidor:
+  reinicie o servidor:
+
           sudo init 6
 
-criando o arquivo index.php na pasta /var/www/revistas/public_html :
+  criando o arquivo index.php na pasta /var/www/revistas/public_html :
+
           sudo touch index.php
 
-editar o arquivo:
+  editar o arquivo:
+  
           sudo nano index.php
 
 adicione a função PHP:
