@@ -254,7 +254,7 @@ crie um banco com o nome do portal da revista no phpmyadmin:
 4.5 - revistas
 
 5 - baixando e instalando o OJS:
-https://pkp.sfu.ca/ojs/ojs_download/
+         https://pkp.sfu.ca/ojs/ojs_download/
  navegue com seu navegador na página de download. Com o mouse sobre o link de download da versão mais recente (formato tar.gz), ao invés de clicar para download, clique com o botão direito do mouse, onde encontrará a opção “Copiar endereço do link”. Esta opção vai salvar o endereço do link na área de transferência.
 # caso o wget não esteja instalado: sudo apt install wget
 5.1 - 
